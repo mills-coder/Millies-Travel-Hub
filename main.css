@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Share&family=Special+Elite&family=Yeseva+One&display=swap');
+
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+
+h3 {
+    font-family: 'Special Elite', cursive;
+}
+
+body {
+    background-image:url("background.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    font-family: 'Share', cursive;
+    font-size: 15px;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color:rgba(77, 96, 103, 0.6);
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+div.transbox p {
+        margin: 3%;
+        font-weight: bold;
+        color: white;
+    }
+
+.makemewhite {
+    color:white; 
+}
+
+.makemegrey {
+    color:rgb(218, 212, 212);
+}
+
+.box {
+    color:black;
+    font-size: 15px;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    padding:15px;
+    flex:2;
+  
+}
+  
+  .box1 { background:#342bb8;}
+  .box2 { background:#132c7ef1;}
+  .box3 { background:#50a2ff;}
+  .box4 { background:#3381da;}
+  .box5 { background:#75ccf5;}
+  .box6 {background:rgb(143, 187, 238)}
+  .box7 {background:#49c5ff}
+
+.container {
+    display: flex;
+}
+
+img{
+    width:15%;
+    border-radius: 4px;
+    border: 1px solid rgb(2, 2, 2);
+    margin-left: 80%;
+    margin-right: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea, label {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    /* border: 1px solid #ccc; Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family:'Special Elite', cursive;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+/* unvisited link */
+a:link {
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(245, 243, 243);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(118, 10, 241);
+    text-decoration: none;
+  }
